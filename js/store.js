@@ -37,22 +37,6 @@ if(argv.get == true) {
 	contractInstance.methods.get().call().then(ret => {
 		console.log('Number:', ret);
 	})
-
-	/*const options = {
-		from: account,
-		gas: 4000000,
-		gasPrice: '3000000000000',
-	};
-
-	contractInstance.methods.get().send(options, (err, hash) => {
-		if(err){
-			console.log(err);
-			return;
-		}
-		console.log('txHash:', hash);
-	}).then(ret => {
-		console.log('Number:', ret);
-	})*/
 }
 
 if(argv.set != undefined) {
