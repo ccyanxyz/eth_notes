@@ -1,4 +1,4 @@
-Ethereum overview: [eth.md](./notes/eth.md)
+Ethereum overview: [eth.md](./eth.md)
 
-Ethereum MPT:[mpt.md](./notes/mpt.md)
+Ethereum MPT:[mpt.md](./mpt.md)
 
